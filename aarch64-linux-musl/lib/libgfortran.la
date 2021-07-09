@@ -5,10 +5,10 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname='libgfortran.so.3'
+dlname='libgfortran.so.5'
 
 # Names of this library.
-library_names='libgfortran.so.3.0.0 libgfortran.so.3 libgfortran.so'
+library_names='libgfortran.so.5.0.0 libgfortran.so.5 libgfortran.so'
 
 # The name of the static archive.
 old_library='libgfortran.a'
@@ -23,7 +23,7 @@ dependency_libs=' -lm'
 weak_library_names=''
 
 # Version information for libgfortran.
-current=3
+current=5
 age=0
 revision=0
 
